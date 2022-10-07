@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">final_projectars</string>
+    <string name="t1">Пройди лабиринт</string>
+    <string name="t2">Первый уровень</string>
+    <string name="t3">Время: Очки:</string>
+    <string name="t4">Влево</string>
+    <string name="t5">Вправо</string>
+    <string name="t6">Вверх</string>
+    <string name="t7">Вниз</string>
+    <string name="t8">Выйти</string>
+    <string name="t9">Открой замок</string>
+    <string name="t10">Замок 1 уровня</string>
+    <string name="t11">Замок 2 уровня</string>
+    <string name="t12">Второй уровень</string>
+    <string name="t13">Время: </string>
+    <string name="t14">Сбросить</string>
+    <string name="t15">Ваши очки: </string>
+
+
+</resources>

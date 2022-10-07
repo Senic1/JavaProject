@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Three">
+
+    <TextView
+        android:id="@+id/lbl111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/t13"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/Const1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgZam"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="288dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/finis3" />
+
+        <ImageView
+            android:id="@+id/imgKl"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/klych3" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
